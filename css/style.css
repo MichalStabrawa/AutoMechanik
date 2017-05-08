@@ -10,7 +10,7 @@
         }
         /* H Style span       */
         
-        span {
+        span {color: yellow;
             font-weight: 400;
         }
         
@@ -18,18 +18,18 @@
             margin-left: 10px;
         }
         
-        h2 {
+        h2 {margin: 0px;
             text-align: center;
         }
 
 .gradient{
     width: 100%;
-    height: 100px;
+    height: 50px;
     background: linear-gradient(to bottom, black 0%, white 100%);
 }
 
 .gradient2{  width: 100%;
-    height: 100px;
+    height: 50px;
     background: linear-gradient(to top, black 0%, white 100%);
     
 }
@@ -73,19 +73,20 @@
         }
         
         #main-nav ul a:hover {
-            color: green;
+            color: yellow;
         }
         
         #main-nav.scroll {
-            background-color: #fff;
+            background-color: black;
+            
         }
         
         #main-nav.scroll ul .menu-item a {
-            color: #1ac056;
+            color:  black;
         }
         
         #main-nav.scroll ul .menu-item a:hover {
-            color: green;
+            color: yellow;
         }
         /*Menu glowne stop*/
         /* Naglowek Start */
@@ -122,6 +123,7 @@
         
         h2 {
             text-align: center;
+           
         }
         /*ABOUT SECTION Style Start*/
 
@@ -135,7 +137,8 @@
 }
 
         #about figure {
-            width: 50%;
+            
+            width: 30%;
             margin: 0;
             text-align: center;
         }
@@ -153,7 +156,7 @@
 }
         
         #icons-about .fa {
-            background-color: black;
+            background-color: white;
             border: 1px solid #fff;
             height: 50px;
             width: 50px;
@@ -164,12 +167,12 @@
             overflow: hidden;
             border-radius: 100px;
             transition: 1s;
-            color: deeppink;
+            color: black;
         }
         
         #icons-about .fa:hover {
-            color: black;
-            background-color: deeppink;
+            color: #fff;
+            background-color:black;
             transition: 1s;
             transform: rotate(360deg);
         }
@@ -276,7 +279,7 @@
         /* contakt style*/
         
         #contact {
-            background-color: rgba(255, 0, 255, 0.3);
+            background-color: black;
             color: #fff;
         }
         
