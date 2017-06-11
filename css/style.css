@@ -280,6 +280,19 @@
 #div1{
     display: none;
 }
+
+input[type="text"],input[type="mailto"]{
+    background-color: transparent;
+    margin:5px;
+}
+
+input[type="submit"]{margin: 20px;
+    width: 25%;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: #fff;
+}
         
         .parallax-text {
             height: 50px;
