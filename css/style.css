@@ -16,7 +16,6 @@
         }
         
         h1 {
-            font-family: 'Faster One', cursive;
             margin-left: 10px;
         }
         
@@ -52,6 +51,10 @@
         
         p {
             line-height: 1.5em;
+        }
+        
+        .row p {
+            color: #fff;
         }
         /*moje menu glowne */
         
@@ -110,10 +113,10 @@
             right: 0;
             left: 10px;
             color: #fff;
-            font-family: 'Roboto', sans-serif;
         }
         
         #main-header .header-caption h1 {
+            font-family: 'Faster One', cursive;
             font-size: 5em;
             font-weight: 300;
         }
@@ -125,7 +128,22 @@
         /* Naglowek stop */
         
         h2 {
+            font-family: 'Roboto Mono', monospace;
             text-align: center;
+        }
+        
+        .jumbotron {
+            position: absolute;
+            top: 10%;
+            right: 5%;
+            color: #fff;
+            background-color: transparent;
+            font-family: font-family: 'Roboto Mono', monospace;
+            border-radius: 2px;
+        }
+        
+        .jumbotron >h1 {
+            font-family: font-family: 'Roboto Mono', monospace;
         }
         /*ABOUT SECTION Style Start*/
         
@@ -134,12 +152,16 @@
             margin: 0px;
         }
         
+        #about #img-class-center {
+            text-align: center;
+        }
+        
         #h2-background {
             width: 100%;
             background-color: white;
         }
         
-        #about figure {
+        #about .about-img {
             width: 30%;
             margin: 0;
             text-align: center;
@@ -148,13 +170,14 @@
         #about figure .about-img {
             max-width: 60%;
             border: 10px;
-            border-radius: 10px;
+            text-align: center;
             margin: 0px;
             transition: all 2s;
         }
         
-        #about figure .about-img:hover {
-            transform: rotate(360deg);
+        #about .about-img:hover {
+            transition: 1s;
+            transform: rotate(960deg);
         }
         
         #icons-about .fa {
@@ -204,8 +227,9 @@
         }
         
         .parallax {
+            position: relative;
             /* The image used */
-            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/engine.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/subaru.jpg);
             /* Set a specific height */
             min-height: 500px;
             /* Create the parallax scrolling effect */
@@ -216,6 +240,46 @@
             text-align: center;
             color: aliceblue;
         }
+        
+        .parralax-info {
+            text-shadow: 1px 1px 1px red;
+            border: 2px solid #fff;
+            width: 50%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color: linear-gradient(rgba(1, 0, 0, 3), rgba(1, 0, 0, 0.3));
+            transform: translate(-50%, -50%);
+        }
+        
+        .parralax-info h3,
+        i {
+            text-shadow: 1px 1px 1px black;
+        }
+        
+        .parralax-info p {
+            padding: 20px;
+            font-size: 1.3em;
+        }
+        
+        #promotion1 {
+            width: 20%;
+            
+        }
+
+#btn-alert{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+#div1{
+    display: none;
+}
         
         .parallax-text {
             height: 50px;

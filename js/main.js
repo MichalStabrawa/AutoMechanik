@@ -28,4 +28,8 @@ var menuHeight = $('#main-nav').height();
 
 });
 
-
+$(document).ready(function(){
+    $("#btn-alert").click(function(){
+        $("#div1").slideToggle("slow");
+    });
+});
