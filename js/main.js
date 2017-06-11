@@ -33,3 +33,11 @@ $(document).ready(function(){
         $("#div1").slideToggle("slow");
     });
 });
+
+
+$(document).ready(function(){
+    $("#opona").click(function(){
+    $("#opona").hide("slow");
+});
+    
+});

@@ -64,6 +64,11 @@
             width: 100%;
             z-index: 10;
         }
+#main-nav i{
+    color: #fff;
+        text-shadow: 0px 0px 2px yellow;
+    line-height: 2;
+}
         
         #main-nav ul {
             text-align: right;
@@ -208,7 +213,7 @@
         }
         /* Skills Umiejetnosci Start style */
         
-        #skils p {
+        #skils p {color:black;
             text-align: center;
         }
         
@@ -221,11 +226,20 @@
             display: inline-block;
             margin: 20px;
             transition: 1s;
+            width: 350px;
+            overflow: hidden;
+            border: 5px solid black;
+            border-radius: 5px;
         }
+#skils .skils-icons figure img{
+    transition: 0.5s;
+}
         
-        #skils .skils-icons figure:hover {
-            transform: rotate(360deg);
-        }
+        #skils .skils-icons figure img:hover {
+            transform: scale(1.1);
+            transition: 1s;
+}
+        
         
         #skils #skils-icons figure figcaption {
             margin-top: 10px;
@@ -249,7 +263,7 @@
         .parralax-info {
             text-shadow: 1px 1px 1px red;
             border: 2px solid #fff;
-            width: 70%;
+            width: 80%;
             height: auto;
             position: absolute;
             top: 50%;
