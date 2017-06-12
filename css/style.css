@@ -29,6 +29,11 @@
             padding-bottom: 10px;
             padding-top: 10px;
         }
+
+h3 {
+    color: yellow;
+    text-shadow: 1px 1px 2px #fff;
+}
         
 
         /*Style Klasa col-1-2*/
@@ -49,7 +54,7 @@
             padding: 0px;
         }
         
-        p {
+        p {font-size: 18px;
           margin: 10px;
         }
         
@@ -83,6 +88,7 @@
             color: #fff;
             transition: all .3s;
             font-family: 'Wallpoet', cursive;
+            font-size: 1.3em;
         }
         
         #main-nav ul a:hover {
@@ -230,7 +236,7 @@
             transition: 1s;
             width: 350px;
             overflow: hidden;
-            border: 5px solid black;
+           
             border-radius: 5px;
         }
 #skils .skils-icons figure img{
