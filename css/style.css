@@ -29,13 +29,11 @@
             padding-bottom: 10px;
             padding-top: 10px;
         }
-
-h3 {
-    color: yellow;
-    text-shadow: 1px 1px 2px #fff;
-}
         
-
+        h3 {
+            color: yellow;
+            text-shadow: 1px 1px 2px #fff;
+        }
         /*Style Klasa col-1-2*/
         
         .col-1-2 {
@@ -43,19 +41,22 @@ h3 {
             float: left;
             margin: 0;
         }
-
-.col-sm-6 ,.col-md-4{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+        
+        .col-sm-6,
+        .col-md-4 {
+            padding: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
         
         section {
             overflow: auto;
             padding: 0px;
         }
         
-        p {font-size: 18px;
-          margin: 10px;
+        p {
+            font-size: 18px;
+            margin: 10px;
         }
         
         .row p {
@@ -69,11 +70,12 @@ h3 {
             width: 100%;
             z-index: 10;
         }
-#main-nav i{
-    color: #fff;
-        text-shadow: 0px 0px 2px yellow;
-    line-height: 2;
-}
+        
+        #main-nav i {
+            color: #fff;
+            text-shadow: 0px 0px 2px yellow;
+            line-height: 2;
+        }
         
         #main-nav ul {
             text-align: right;
@@ -107,7 +109,7 @@ h3 {
             color: yellow;
         }
         /*Menu glowne stop*/
-        /* Naglowek Start */
+        /* Naglowek Start   Header */
         
         #main-header {
             background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../img/header.jpg);
@@ -119,7 +121,8 @@ h3 {
         
         #main-header .header-caption {
             position: absolute;
-            top: 10%;;
+            top: 10%;
+            ;
             transform: translateY(-50%);
             left: 0;
             right: 0;
@@ -128,13 +131,12 @@ h3 {
         }
         
         #main-header .header-caption h1 {
-          font-family: 'Wallpoet', cursive;
+            font-family: 'Wallpoet', cursive;
             font-size: 4em;
             font-weight: 300;
             position: absolute;
             top: 50%;
             z-index: 11;
-            
         }
         
         #main-header .header-caption h2 {
@@ -143,15 +145,15 @@ h3 {
         }
         /* Naglowek stop */
         
-        h2 {margin-top: 20px;
+        h2 {
+            margin-top: 20px;
             margin-bottom: 20px;
-           
             text-align: center;
         }
         
         .jumbotron {
             position: absolute;
-            top: 22%;
+            top: 23%;
             right: 5%;
             color: #fff;
             background-color: transparent;
@@ -221,8 +223,16 @@ h3 {
         }
         /* Skills Umiejetnosci Start style */
         
-        #skils p {color:black;
+        #skils {
+            width: 100%;
+            display: inline-block margin: 0;
+        }
+        
+        #skils p {
+            color: black;
             text-align: center;
+            padding: 10px;
+            ;
         }
         
         #skils .skils-icons {
@@ -234,20 +244,23 @@ h3 {
             display: inline-block;
             margin: 20px;
             transition: 1s;
-            width: 350px;
+            width: 250px;
+            height: 184px;
             overflow: hidden;
-           
             border-radius: 5px;
         }
-#skils .skils-icons figure img{
-    transition: 0.5s;
-}
+        
+        #skils .skils-icons figure img {
+            width: 100%;
+            transition: 0.5s;
+            border-radius: 5px;
+            overflow: hidden;
+        }
         
         #skils .skils-icons figure img:hover {
             transform: scale(1.1);
             transition: 1s;
-}
-        
+        }
         
         #skils #skils-icons figure figcaption {
             margin-top: 10px;
@@ -268,8 +281,8 @@ h3 {
             color: aliceblue;
         }
         
-        .parralax-info {color: #fff;
-           
+        .parralax-info {
+            color: #fff;
             border: 2px solid #fff;
             width: 80%;
             height: auto;
@@ -286,41 +299,41 @@ h3 {
             text-shadow: 1px 1px 1px black;
         }
         
-        .parralax-info #parralaxparagraf {color: #fff;
+        .parralax-info #parralaxparagraf {
+            color: #fff;
             padding: 20px;
             font-size: 1.3em;
         }
         
         #promotion1 {
             width: 20%;
-            
         }
-
-#btn-alert{
-    width: auto
-    height: auto;
-  
-    margin-bottom: 20px;
-    border-radius: 5px;
-    font-size: 1.2em;
-}
-
-#div1{
-    display: none;
-}
-
-input[type="text"],input[type="mailto"]{
-    background-color: transparent;
-    margin:5px;
-}
-
-input[type="submit"]{margin: 20px;
-    width: 100px;
-    height: 40px;
-    background-color: black;
-    border-radius: 5px;
-    color: #fff;
-}
+        
+        #btn-alert {
+            width: auto height: auto;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        
+        #div1 {
+            display: none;
+        }
+        
+        input[type="text"],
+        input[type="mailto"] {
+            background-color: transparent;
+            margin: 5px;
+        }
+        
+        input[type="submit"] {
+            margin: 20px;
+            width: 100px;
+            height: 40px;
+            background-color: black;
+            border-radius: 5px;
+            color: #fff;
+        }
         
         .parallax-text {
             height: 50px;
@@ -328,20 +341,10 @@ input[type="submit"]{margin: 20px;
         }
         /*Skils umiejetnosci end*/
         /* Portfolio section style start */
-        
-       
-        
-
-  
-        
-        #skils {
-            width: 100%;
-            display: inline-block margin: 0;
-        }
         /* contakt style*/
         
         #contact {
-       background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../img/engine.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/engine.jpg);
             background-size: cover;
             color: #fff;
         }
@@ -364,19 +367,18 @@ input[type="submit"]{margin: 20px;
             #fff;
         }
         
-        #contact .social-icons {text-align: center;
+        #contact .social-icons {
+            text-align: center;
             margin top: 30px;
         }
         
         #contact .social-icons a {
             color: #fff;
-            
             display: inline-block;
             height: 50px;
             width: 50px;
             margin-right: 10px;
             margin-top: 10px;
-            
             line-height: 50px;
             font-size: 1em;
             transition: 1s;
@@ -428,11 +430,13 @@ input[type="submit"]{margin: 20px;
         }
         
         footer {
+            text-align: right;
             background-color: black;
             padding 0 60px;
             color: #fff;
         }
         
-        footer p {padding-left: 5px;
+        footer p {
+            padding-right: 5px;
             margin: 0;
         }
