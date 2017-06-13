@@ -71,7 +71,7 @@
             z-index: 10;
         }
         
-        #main-nav i {
+        #main-nav i {margin-left: 5px;
             color: #fff;
             text-shadow: 0px 0px 2px yellow;
             line-height: 2;
