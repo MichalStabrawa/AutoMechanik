@@ -122,7 +122,7 @@
         #main-header .header-caption {
             position: absolute;
             top: 10%;
-            ;
+            
             transform: translateY(-50%);
             left: 0;
             right: 0;
@@ -265,6 +265,8 @@
         #skils #skils-icons figure figcaption {
             margin-top: 10px;
         }
+
+/*parallax********************************************************************/
         
         .parallax {
             position: relative;
@@ -320,20 +322,25 @@
             display: none;
         }
         
-        input[type="text"],
-        input[type="mailto"] {
+       #div1 input[type="text"],
+        input[type="mailto"] {width: 200px;
+            border-radius: 5px;
             background-color: transparent;
             margin: 5px;
         }
         
         input[type="submit"] {
             margin: 20px;
-            width: 100px;
-            height: 40px;
+            width: 130px;
+            height: 45px;
             background-color: black;
             border-radius: 5px;
             color: #fff;
         }
+input[type="submit"]:hover{
+    background-color: #111;
+    transition: 0.3s;
+}
         
         .parallax-text {
             height: 50px;
