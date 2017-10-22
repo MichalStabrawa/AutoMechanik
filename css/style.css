@@ -349,6 +349,17 @@ input[type="submit"]:hover{
         /*Skils umiejetnosci end*/
         /* Portfolio section style start */
         /* contakt style*/
+
+
+
+/*wheall section style start*/
+#wheall p{
+    color:black;
+}
+#wheall img{
+    width: 150px;
+    
+}
         
         #contact {
             background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/engine.jpg);
